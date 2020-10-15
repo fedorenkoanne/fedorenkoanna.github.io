@@ -1,0 +1,13 @@
+body {
+	background-color: lightgreen;
+}
+h1 {
+	text-align: center;
+	background-color: lightblue;
+}
+img {
+	border-radius: 10px
+}
+p {
+	text-align: center;
+}
