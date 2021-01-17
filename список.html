@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Fedorenko Anna</title>
+	<style type="text/css">
+	.dos {
+		width: 700px;
+		height: 1100px;
+		margin: auto;
+		border: 1px solid blue;
+	}
+	.rd {
+		height: 100px;
+		width: 300px;
+		border: 1px solid blue;
+		float: left;
+		box-sizing: border-box;
+        text-align: center;
+	}
+    .rd:nth-child(3n+1) {
+    width: 100px;
+    }
+    .rt:nth-child(odd)>.rd:nth-child(1n+1) {
+	background-color: rgb(195, 212, 223);
+    }
+    .rt:nth-child(even)>.rd:nth-child(1n+1) {
+	background-color: rgb(230, 213, 213);
+    }
+    .rt:nth-child(odd):hover>.rd:nth-child(1n+1){
+        background-color: aquamarine;
+    }
+    .rt:nth-child(even):hover>.rd:nth-child(1n+1) {
+       background-color: aquamarine;
+    }
+        </style>
+	<link rel="stylesheet" href="інтерфейс.css">
+</head>
+<body>
+	<h1 style="text-align: center;">Рейтинг мов програмування</h1>
+	<div class="dos">
+        <div class="rt">
+			<div class="rd"><b>Місце</b></div>
+			<div class="rd"><b>Мова Програмування</b></div>
+			<div class="rd"><b>Рейтинг</b></div>
+		</div>
+		<div class="rt">
+			<div class="rd">1</div>
+			<div class="rd">C</div>
+			<div class="rd">16.21%</div>
+		</div>
+		<div class="rt">
+			<div class="rd">2</div>
+			<div class="rd">Python</div>
+			<div class="rd">12.12%</div>
+		</div>
+		<div class="rt">
+			<div class="rd">3</div>
+			<div class="rd">Java</div>
+			<div class="rd">11.68%</div>
+		</div>
+		<div class="rt">
+			<div class="rd">4</div>
+			<div class="rd">C++</div>
+			<div class="rd">7.60%</div>
+		</div>
+		<div class="rt">
+			<div class="rd">5</div>
+			<div class="rd">C#</div>
+			<div class="rd">4.67%</div>
+		</div>
+		<div class="rt">
+			<div class="rd">6</div>
+			<div class="rd">Visual Basic</div>
+			<div class="rd">4.01%</div>
+		</div>
+		<div class="rt">
+			<div class="rd">7</div>
+			<div class="rd">JavaScript</div>
+			<div class="rd">2.03%</div>
+		</div>
+		<div class="rt">
+			<div class="rd">8</div>
+			<div class="rd">PHP</div>
+			<div class="rd">1.79%</div>
+		</div>
+		<div class="rt">
+			<div class="rd">9</div>
+			<div class="rd">R</div>
+			<div class="rd">1.64%</div>
+		</div>
+		<div class="rt">
+			<div class="rd">10</div>
+			<div class="rd">SQL</div>
+			<div class="rd">1.54%</div>
+		</div>
+	</div>
+</body>
+</html>
+© 2020 GitHub, Inc.
